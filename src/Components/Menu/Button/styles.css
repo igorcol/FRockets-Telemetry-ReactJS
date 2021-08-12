@@ -1,0 +1,12 @@
+.btn-start {
+    padding: 10px 20px;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #eb2727;
+    color: #eee;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);  
+}

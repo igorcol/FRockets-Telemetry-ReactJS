@@ -1,0 +1,33 @@
+
+:root {
+    --top-height: 30%;
+    --border-width: 3px;
+}
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-left: solid var(--border-width) #ffffff31;
+}
+
+.menu-top,.menu-bottom  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-top {
+    height: var(--top-height);   
+    border-bottom: solid var(--border-width) #ffffff31;
+}
+
+.menu-bottom {
+    height: calc(100% - var(--top-height));
+}
+
